@@ -1,4 +1,73 @@
 local L = LibStub("AceLocale-3.0"):NewLocale("GatherLite", "deDE")
-if not L then
-    return
-end
+if not L then return end
+
+L["tracking"] = "Verfolgung"
+L["mining"] = "Bergbau"
+L["herbalism"] = "Kräuterkunde"
+L["fish"] = "Fisch"
+L["treasures"] = "Schätze"
+
+L["settings.general"] = "Allgemeine Einstellungen"
+L["settings.general.predefined"] = "Verwende vordefinierte Datenbank"
+L["settings.general.minimap"] = "Zeige Minimap-Button"
+L["settings.map"] = "Map Einstellungen"
+L["settings.map.loot"] = "Zeige Loot auf Tooltip"
+L["settings.map.size"] = "Icon größe"
+L["settings.map.opacity"] = "Icon Durchsichtigkeit"
+L["settings.minimap"] = "Minimap Einstellungen"
+L["settings.minimap.loot"] = "Zeige Loot auf Tooltip"
+L["settings.minimap.size"] = "Icon größe"
+L["settings.minimap.opacity"] = "Icon Durchsichtigkeit"
+L["settings.minimap.range"] = "verstecke nodes näher als %d yards"
+L["settings.minimap.left_click"] = "Linksklick"
+L["settings.minimap.left_click_text"] = "Öffne Tracker Menü"
+L["settings.minimap.right_click"] = "Rechtsklick"
+L["settings.minimap.right_click_text"] = "Öffne Einstellungen"
+
+L['tooltip.last_visit'] = "Letzter Besuch:"
+L['tooltip.found_by'] = "Gefunden von:"
+
+L["settings.debugging"] = "Debugging"
+
+
+-- Ores
+L['node.copper_vein'] = "Kupfervorkommen"
+L['node.tin_vein'] = "Zinnvorkommen"
+L['node.silver_vein'] = "Silbervorkommen"
+L['node.iron_deposit'] = "Eisenvorkommen"
+L['node.gold_vein'] = "Goldvorkommen"
+L['node.mithril_deposit'] = "Mithrilablagerung"
+L['node.truesilver_deposit'] = "Echtsilberablagerung"
+L['node.dark_iron_deposit'] = "Dunkeleisenablagerung"
+L['node.small_thorium_vein'] = "Kleines Thoriumvorkommen"
+L['node.rich_thorium_vein'] = "Reiches Thoriumvorkommen"
+
+-- Herbs
+L['node.silverleaf'] = "Silberblatt"
+L['node.peacebloom'] = "Friedensblume"
+L['node.earthroot'] = "Erdwurzel"
+L['node.mageroyal'] = "Maguskönigskraut"
+L['node.briarthorn'] = "Wilddornrose"
+L['node.stranglekelp'] = "Würgetang"
+L['node.bruiseweed'] = "Beulengras"
+L['node.wild_steelbloom'] = "Wildstahlblume"
+L['node.grave_moss'] = "Grabmoos"
+L['node.kingsblood'] = "Königsblut"
+L['node.liferoot'] = "Lebenswurz"
+L['node.fadeleaf'] = "Blassblatt"
+L['node.goldthorn'] = "Golddorn"
+L['node.khadgars_whisker'] = "Khadgars Schnurrbart"
+L['node.wintersbite'] = "Winterbiss"
+L['node.firebloom'] = "Feuerblüte"
+L['node.purple_lotus'] = "Lila Lotus"
+L['node.arthas_tears'] = "Arthas' Träne"
+L['node.sungrass'] = "Sonnengras"
+L['node.blindweed'] = "Blindkraut"
+L['node.ghost_mushroom'] = "Geisterpilz"
+L['node.gromsblood'] = "Gromsblut"
+L['node.golden_sansam'] = "Goldener Sansam"
+L['node.dreamfoil'] = "Traumblatt"
+L['node.mountain_silversage'] = "Bergsilberweisling"
+L['node.plaguebloom'] = "Pestblüte"
+L['node.icecap'] = "Eiskappe"
+L['node.black_lotus'] = "Schwarzer Lotus"
